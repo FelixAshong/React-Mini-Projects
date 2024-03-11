@@ -1,0 +1,22 @@
+.App {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div h2{
+    text-align: center;
+}
+.actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.actions button{
+    padding: 2px 7px;
+}

@@ -1,0 +1,23 @@
+.App {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.circle {
+    border-radius: 50%;
+    transform: rotate(0deg);
+    transition: .5s all linear;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,42 @@
+.balloons-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.balloon-wrapper {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 2px 3px 15px 0px #000000;
+}
+
+.balloon-item {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.purple {
+  background-color: purple;
+}

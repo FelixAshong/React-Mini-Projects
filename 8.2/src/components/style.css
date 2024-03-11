@@ -1,0 +1,25 @@
+
+
+.card {
+background-color: white;
+display: flex;
+flex-direction: column;
+box-shadow: 0px 0px 9px 0px #000000;
+gap: 5px;
+padding: 20px;
+width: 200px;
+justify-content: center;
+}
+
+span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.toppings {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}

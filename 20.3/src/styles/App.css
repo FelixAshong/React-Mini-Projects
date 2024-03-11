@@ -1,0 +1,47 @@
+.App {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    height: 500px;
+    width: 500px;
+    background-color: rgb(212, 210, 210);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    gap: 10px;
+}
+.todo-item {
+    cursor: pointer;
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(233, 232, 230);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.todo-item:hover {
+    opacity: .8;
+}
+.todo-item span {
+    cursor: pointer;
+}
+button {
+    padding: 2px 4px;
+}
+.green-color {
+    color: green;
+}
+.red-color {
+    color: red;
+}
+.deleted {
+    text-decoration: line-through;
+}

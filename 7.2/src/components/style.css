@@ -1,0 +1,20 @@
+.cus-btn {
+    padding: 5px 10px;
+    border: 3px black solid;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.blue {
+    background-color: blue;
+}
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+.cus-btn:hover {
+    opacity: .8;
+}

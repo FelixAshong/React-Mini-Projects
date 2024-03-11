@@ -1,0 +1,6 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 10px;
+}
